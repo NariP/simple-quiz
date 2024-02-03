@@ -1,0 +1,6 @@
+/**/*.*
+!vite.config.ts
+!.eslintrc.cjs
+!tsconfig.json
+!tsconfig.node.json
+!src/**/*
