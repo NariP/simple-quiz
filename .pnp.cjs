@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@emotion/react", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.3"],\
           ["@emotion/styled", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.0"],\
-          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.3"],\
+          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.4"],\
           ["@nr2p/prettier-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.2"],\
           ["@types/eslint", "npm:8.56.2"],\
           ["@types/react", "npm:18.2.52"],\
@@ -1039,17 +1039,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@nr2p/eslint-config", [\
-      ["npm:1.0.3", {\
-        "packageLocation": "../../.yarn/berry/cache/@nr2p-eslint-config-npm-1.0.3-5d29e787fa-10c0.zip/node_modules/@nr2p/eslint-config/",\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../.yarn/berry/cache/@nr2p-eslint-config-npm-1.0.4-b51eb30d7b-10c0.zip/node_modules/@nr2p/eslint-config/",\
         "packageDependencies": [\
-          ["@nr2p/eslint-config", "npm:1.0.3"]\
+          ["@nr2p/eslint-config", "npm:1.0.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.3", {\
-        "packageLocation": "./.yarn/__virtual__/@nr2p-eslint-config-virtual-5f29074440/3/.yarn/berry/cache/@nr2p-eslint-config-npm-1.0.3-5d29e787fa-10c0.zip/node_modules/@nr2p/eslint-config/",\
+      ["virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.4", {\
+        "packageLocation": "./.yarn/__virtual__/@nr2p-eslint-config-virtual-2e69119feb/3/.yarn/berry/cache/@nr2p-eslint-config-npm-1.0.4-b51eb30d7b-10c0.zip/node_modules/@nr2p/eslint-config/",\
         "packageDependencies": [\
-          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.3"],\
+          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.4"],\
           ["@types/eslint", "npm:8.56.2"],\
           ["@types/eslint-config-prettier", null],\
           ["@types/eslint-import-resolver-typescript", null],\
@@ -5074,7 +5074,7 @@ const RAW_RUNTIME_STATE =
           ["simple-quiz", "workspace:."],\
           ["@emotion/react", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.3"],\
           ["@emotion/styled", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.0"],\
-          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.3"],\
+          ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.4"],\
           ["@nr2p/prettier-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.2"],\
           ["@types/eslint", "npm:8.56.2"],\
           ["@types/react", "npm:18.2.52"],\

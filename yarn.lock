@@ -764,9 +764,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nr2p/eslint-config@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@nr2p/eslint-config@npm:1.0.3"
+"@nr2p/eslint-config@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@nr2p/eslint-config@npm:1.0.4"
   peerDependencies:
     "@types/eslint": ^8.56.2
     "@typescript-eslint/eslint-plugin": ^6.20.0
@@ -780,7 +780,7 @@ __metadata:
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-unused-imports: ^3.0.0
-  checksum: 10c0/a6c672da1923224df377bf29236c53979dbafdcba76476918d0475490231575285461d4f286a42e145cee1ca84446394b0448897d946f7d3268299672e57ab8a
+  checksum: 10c0/94930a28989c56348f89680064f0a196578e8bf0e3b8b32f783af4fd3f38f2c8974f6b00d269b0c988f2bcba4a1e6105e7eadfcbb4df352b6edf98c84128abf8
   languageName: node
   linkType: hard
 
@@ -4174,7 +4174,7 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:^11.11.3"
     "@emotion/styled": "npm:^11.11.0"
-    "@nr2p/eslint-config": "npm:^1.0.3"
+    "@nr2p/eslint-config": "npm:^1.0.4"
     "@nr2p/prettier-config": "npm:^1.0.2"
     "@types/eslint": "npm:^8.56.2"
     "@types/react": "npm:^18.2.43"

@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@nr2p/eslint-config": "^1.0.3",
+    "@nr2p/eslint-config": "^1.0.4",
     "@nr2p/prettier-config": "^1.0.2",
     "@types/eslint": "^8.56.2",
     "@types/react": "^18.2.43",
