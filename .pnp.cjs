@@ -53,11 +53,13 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:0.4.5"],\
           ["eslint-plugin-unused-imports", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:3.0.0"],\
           ["lodash-es", "npm:4.17.21"],\
+          ["lottie-web", "npm:5.12.2"],\
           ["prettier", "npm:3.2.4"],\
           ["qs", "npm:6.11.2"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:18.2.0"],\
           ["react-hot-toast", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:2.4.1"],\
+          ["react-icons", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.1"],\
           ["react-router-dom", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:6.22.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.12"],\
@@ -4369,6 +4371,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lottie-web", [\
+      ["npm:5.12.2", {\
+        "packageLocation": "../../.yarn/berry/cache/lottie-web-npm-5.12.2-942dc9e22a-10c0.zip/node_modules/lottie-web/",\
+        "packageDependencies": [\
+          ["lottie-web", "npm:5.12.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lru-cache", [\
       ["npm:10.2.0", {\
         "packageLocation": "../../.yarn/berry/cache/lru-cache-npm-10.2.0-b9f6b44740-10c0.zip/node_modules/lru-cache/",\
@@ -5080,6 +5091,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-icons", [\
+      ["npm:5.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/react-icons-npm-5.0.1-5e01385cf2-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:5.0.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-e0058d4f82/3/.yarn/berry/cache/react-icons-npm-5.0.1-5e01385cf2-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.1"],\
+          ["@types/react", "npm:18.2.52"],\
+          ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-is", [\
       ["npm:16.13.1", {\
         "packageLocation": "../../.yarn/berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
@@ -5446,11 +5479,13 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:0.4.5"],\
           ["eslint-plugin-unused-imports", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:3.0.0"],\
           ["lodash-es", "npm:4.17.21"],\
+          ["lottie-web", "npm:5.12.2"],\
           ["prettier", "npm:3.2.4"],\
           ["qs", "npm:6.11.2"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:18.2.0"],\
           ["react-hot-toast", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:2.4.1"],\
+          ["react-icons", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.1"],\
           ["react-router-dom", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:6.22.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.0.12"],\
