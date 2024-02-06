@@ -1,11 +1,11 @@
-import { Outlet, createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import { ErrorElement } from '@/components/errors';
-import { NotFoundPage, QuizPage, ReviewNotePage, StartPage } from '@/pages';
+import { NotFoundPage, QuizPage, ReviewNotePage, RootElement, StartPage } from '@/pages';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Outlet />,
+    element: <RootElement />,
     errorElement: <ErrorElement />,
     children: [
       {
