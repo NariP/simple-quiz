@@ -21,7 +21,7 @@ const reset = css`
     font-size: inherit;
     font-weight: 400;
     font-synthesis: none;
-    line-height: 1.2;
+    line-height: 1;
 
     touch-action: manipulation;
 
@@ -30,7 +30,7 @@ const reset = css`
     border: 0;
     vertical-align: baseline;
     text-decoration: none;
-    background-color: inherit;
+    box-sizing: border-box;
   }
 
   :focus {

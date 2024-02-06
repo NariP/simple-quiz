@@ -1,6 +1,6 @@
 import { Outlet, createBrowserRouter } from 'react-router-dom';
 import { ErrorElement } from '@/components/errors';
-import { QuizPage, ReviewNotePage, StartPage } from '@/pages';
+import { NotFoundPage, QuizPage, ReviewNotePage, StartPage } from '@/pages';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <div>notfound</div>,
+    element: <NotFoundPage />,
   },
 ]);
 

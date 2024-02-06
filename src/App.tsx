@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Toaster } from 'react-hot-toast';
 import { RouterProvider } from 'react-router-dom';
+import Layout from '@/components/layout';
 import { globalQueryClientConfig } from '@/libs/react-query';
 import router from '@/router';
 import { reset } from '@/styles';
@@ -13,7 +14,9 @@ function App() {
       <Global styles={reset} />
       <QueryClientProvider client={queryClient}>
         <Toaster />
-        <RouterProvider router={router} />
+        <Layout>
+          <RouterProvider router={router} />
+        </Layout>
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </>
