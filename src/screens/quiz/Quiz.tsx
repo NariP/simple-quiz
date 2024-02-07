@@ -9,7 +9,6 @@ import queries from '@/libs/react-query/queries';
 import { QuizContent, QuizContentInfo } from '@/screens/quiz/components';
 import useQuizStore from '@/stores/useQuizStore';
 import useTriviaStore from '@/stores/useTriviaStore';
-import type { Question } from '@/apis/trivia';
 
 const Quiz = () => {
   const difficulty = useTriviaStore(state => state.difficulty);
@@ -17,7 +16,7 @@ const Quiz = () => {
 
   const [step, setStep] = useState(0);
 
-  const { data: questions } = useSuspenseQuery<Question[]>(queries.trivia.quizList({ difficulty }));
+  const { data: questions } = useSuspenseQuery(queries.trivia.quizList({ difficulty }));
   const quiz = questions[step];
 
   const blocker = useBlocker(
