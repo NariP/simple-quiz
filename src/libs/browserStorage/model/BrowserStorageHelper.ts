@@ -18,7 +18,7 @@ class BrowserStorageHelper {
     try {
       return JSON.parse(data) as T;
     } catch (e) {
-      return data as T;
+      return null as T;
     }
   }
 }

@@ -46,7 +46,6 @@ const getLabel = (label: string) => {
 };
 
 const labelStyle = css`
-  cursor: pointer;
   flex: 1;
   width: 100%;
   display: flex;
@@ -63,6 +62,7 @@ const labelStyle = css`
       transform: translateY(-1px);
       box-shadow: 4px 3px 4px -4px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease-in-out;
+      cursor: pointer;
     `,
   })};
 `;
