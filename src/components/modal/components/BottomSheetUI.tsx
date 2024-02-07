@@ -22,6 +22,9 @@ const BottomSheetUI = ({
   descriptionProps,
   ...rest
 }: BottomSheetUIProps) => {
+  const descProps = descriptionProps?.dangerouslySetInnerHTML?.__html
+    ? descriptionProps
+    : { ...descriptionProps, children: description };
   return (
     <div
       css={style}
@@ -42,10 +45,8 @@ const BottomSheetUI = ({
           css={descStyle}
           color={gray['050']}
           as="p"
-          {...descriptionProps}
-        >
-          {description}
-        </Text>
+          {...descProps}
+        />
       )}
       {children && <div css={buttonWrapperStyle}>{children}</div>}
     </div>
