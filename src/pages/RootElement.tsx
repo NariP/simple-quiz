@@ -1,12 +1,11 @@
-import { useEffect } from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Navigate, Outlet, useLocation } from 'react-router-dom';
 
 const RootElement = () => {
-  const navigate = useNavigate();
+  const { pathname } = useLocation();
 
-  useEffect(() => {
-    navigate('/start', { replace: true });
-  }, []);
+  if (pathname === '/') {
+    return <Navigate replace to="/start" />;
+  }
 
   return <Outlet />;
 };

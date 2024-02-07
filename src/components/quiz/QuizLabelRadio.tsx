@@ -20,6 +20,7 @@ const QuizLabelRadio = ({ label, value, inputProps, ...rest }: QuizLabelRadio) =
             fill: ${green['500']};
             width: 24px;
             height: 24px;
+            flex-shrink: 0;
           `}
         />
       ) : (
@@ -28,12 +29,11 @@ const QuizLabelRadio = ({ label, value, inputProps, ...rest }: QuizLabelRadio) =
             fill: ${gray['050']};
             width: 24px;
             height: 24px;
+            flex-shrink: 0;
           `}
         />
       )}
-      <Text variant="caption" size="medium">
-        {getLabel(label)}
-      </Text>
+      <Text variant="caption" size="medium" dangerouslySetInnerHTML={{ __html: getLabel(label) }} />
       <input checked={value === inputProps.value} css={a11yStyle} type="radio" {...inputProps} />
     </label>
   );
