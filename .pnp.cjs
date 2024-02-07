@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@emotion/react", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.3"],\
           ["@emotion/styled", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.0"],\
+          ["@lukemorales/query-key-factory", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.3.2"],\
           ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.5"],\
           ["@nr2p/prettier-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.2"],\
           ["@tanstack/react-query", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.18.1"],\
@@ -994,6 +995,32 @@ const RAW_RUNTIME_STATE =
           ["@jridgewell/trace-mapping", "npm:0.3.22"],\
           ["@jridgewell/resolve-uri", "npm:3.1.1"],\
           ["@jridgewell/sourcemap-codec", "npm:1.4.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lukemorales/query-key-factory", [\
+      ["npm:1.3.2", {\
+        "packageLocation": "../../.yarn/berry/cache/@lukemorales-query-key-factory-npm-1.3.2-1e303991d7-10c0.zip/node_modules/@lukemorales/query-key-factory/",\
+        "packageDependencies": [\
+          ["@lukemorales/query-key-factory", "npm:1.3.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.3.2", {\
+        "packageLocation": "./.yarn/__virtual__/@lukemorales-query-key-factory-virtual-e0a697af3d/3/.yarn/berry/cache/@lukemorales-query-key-factory-npm-1.3.2-1e303991d7-10c0.zip/node_modules/@lukemorales/query-key-factory/",\
+        "packageDependencies": [\
+          ["@lukemorales/query-key-factory", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.3.2"],\
+          ["@tanstack/query-core", null],\
+          ["@tanstack/react-query", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.18.1"],\
+          ["@types/tanstack__query-core", null],\
+          ["@types/tanstack__react-query", null]\
+        ],\
+        "packagePeers": [\
+          "@tanstack/query-core",\
+          "@tanstack/react-query",\
+          "@types/tanstack__query-core",\
+          "@types/tanstack__react-query"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5740,6 +5767,7 @@ const RAW_RUNTIME_STATE =
           ["simple-quiz", "workspace:."],\
           ["@emotion/react", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.3"],\
           ["@emotion/styled", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:11.11.0"],\
+          ["@lukemorales/query-key-factory", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.3.2"],\
           ["@nr2p/eslint-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.5"],\
           ["@nr2p/prettier-config", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:1.0.2"],\
           ["@tanstack/react-query", "virtual:e92851574f565c3db0ca370ab455a5073197b619e0eb04b1af40f8553f8e23881684afcad2b9d303bffa97deab8d47e9d528033f8742c361594ece506970b7fd#npm:5.18.1"],\
