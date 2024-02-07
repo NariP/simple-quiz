@@ -62,6 +62,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
         </Text>
       </div>
       <div
+        id="right-root"
         css={css`
           position: relative;
           height: 100%;
