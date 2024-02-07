@@ -1,6 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { ErrorElement } from '@/components/errors';
-import { NotFoundPage, QuizPage, ReviewNotePage, RootElement, StartPage } from '@/pages';
+import {
+  NotFoundPage,
+  QuizPage,
+  ResultPage,
+  ReviewNotePage,
+  RootElement,
+  StartPage,
+} from '@/pages';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'quiz',
         element: <QuizPage />,
+      },
+      {
+        path: 'result',
+        element: <ResultPage />,
       },
       {
         path: 'review-note',

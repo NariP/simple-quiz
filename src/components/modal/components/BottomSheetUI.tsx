@@ -74,6 +74,10 @@ const descStyle = css`
 
 const buttonWrapperStyle = css`
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 `;
 
 export default BottomSheetUI;

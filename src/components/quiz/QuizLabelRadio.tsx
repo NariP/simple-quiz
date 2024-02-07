@@ -32,11 +32,17 @@ const QuizLabelRadio = ({ label, value, inputProps, ...rest }: QuizLabelRadio) =
         />
       )}
       <Text variant="caption" size="medium">
-        {label}
+        {getLabel(label)}
       </Text>
       <input checked={value === inputProps.value} css={a11yStyle} type="radio" {...inputProps} />
     </label>
   );
+};
+
+const getLabel = (label: string) => {
+  if (label === 'True') return 'O';
+  if (label === 'False') return 'X';
+  return label;
 };
 
 const labelStyle = css`
