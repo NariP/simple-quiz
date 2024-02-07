@@ -9,10 +9,13 @@ interface SuspenseProps {
   children: ReactNode;
 }
 const Suspense = ({ delay = 1500, fallback = <PageLoader />, children }: SuspenseProps) => {
-  const [isDelay, setIsDelay] = useState(true);
+  const [isDelay, setIsDelay] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setIsDelay(false), delay);
+    setIsDelay(true);
+    setTimeout(() => {
+      setIsDelay(false);
+    }, delay);
   }, [delay]);
 
   return <RSuspense fallback={fallback}>{isDelay ? fallback : children}</RSuspense>;
