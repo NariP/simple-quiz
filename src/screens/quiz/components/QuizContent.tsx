@@ -21,6 +21,7 @@ interface QuizContentProps {
 const QuizContent = ({ quiz: q, step, total, setStep }: QuizContentProps) => {
   const navigate = useNavigate();
   const setDate = useQuizStore(state => state.setDate);
+  const setAmount = useQuizStore(state => state.setAmount);
 
   const [open, setOpen] = useState(false);
   const [answer, setAnswer] = useState<string>('');
@@ -76,6 +77,7 @@ const QuizContent = ({ quiz: q, step, total, setStep }: QuizContentProps) => {
         open={open}
         title={title}
         titleProps={{ color: isRight ? green['400'] : red['300'] }}
+        descriptionProps={{ dangerouslySetInnerHTML: { __html: description } }}
         description={description}
       >
         <Button
@@ -94,6 +96,7 @@ const QuizContent = ({ quiz: q, step, total, setStep }: QuizContentProps) => {
             } else {
               localStore.wrongQuestions.item = wrongQs;
               setDate('end', dayjs());
+              setAmount(total - wrongQs.length, wrongQs.length);
               navigate('/result');
             }
           }}
