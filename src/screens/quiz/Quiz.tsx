@@ -16,7 +16,7 @@ const Quiz = () => {
 
   const [step, setStep] = useState(0);
 
-  const { data: questions } = useSuspenseQuery(queries.trivia.quizList({ difficulty }));
+  const { data: questions = [] } = useSuspenseQuery(queries.trivia.quizList({ difficulty }));
   const quiz = questions[step];
 
   const blocker = useBlocker(

@@ -34,7 +34,7 @@ axios.interceptors.response.use(
   },
   ({ response }) => {
     return Promise.reject(
-      new ApiError({ code: response.status, message: '예상하지 못한 오류가 발생했어요' })
+      new ApiError({ code: response?.status, message: '예상하지 못한 오류가 발생했어요' })
     );
   }
 );
